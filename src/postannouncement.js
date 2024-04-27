@@ -41,9 +41,9 @@ export default async function sendMessageData(messageData) {
 
     const responseData = await response.json();
     console.log('Data successfully sent to calvaria API:', responseData);
-    return { status: 200, message: "Data successfully sent to your API", data: responseData };
+    return { status: 200, message: "Data successfully sent to calvaria API", data: responseData };
   } catch (error) {
-    console.error('Failed to send data to your API:', error);
-    return { status: 500, message: "Failed to send data to your API", data: null };
+    console.error('Failed to send data to calvaria API:', error);
+    return { status: 500, message: "Failed to send data to calvaria API", data: null };
   }
 }
