@@ -1,0 +1,19 @@
+{
+  "name": "calvaria_bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.0.0",
+    "git-filter-repo": "^0.0.30",
+    "node-fetch": "^3.3.2"
+  }
+}
